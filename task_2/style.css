@@ -1,0 +1,7 @@
+.focused {
+    outline: solid 2px red;
+}
+
+.text {
+    margin: 5px auto;
+}
