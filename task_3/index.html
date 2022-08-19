@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Task 3: Bulls and cows</h1>
+
+        <div class="app">
+            <div class="goal">
+                <p class="hello">Загаданное число: <span class="number"></span></p>
+                <p>Осталось <span class="turns">10</span> ходов</p>
+            </div>
+
+            <div class="form">
+                <input type="text" id="player" /><label for="player">Введите число от 3 до 6</label
+          >
+          <input
+            type="button"
+            name="ok"
+            id="guess"
+            value="Проверить"
+            onclick="guess()"
+          />
+        </div>
+
+        <div class="table">
+          <div class="turnsList"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./task-3.js"></script>
+  </body>
+</html>
